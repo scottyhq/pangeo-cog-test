@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - nomkl
-  - curl=7.62
+  - curl=7.59
   - python=3.6
   - dask=1.0.0
   - distributed=1.25
@@ -19,8 +19,6 @@ dependencies:
   - hvplot=0.2
   - requests=2.20
   - pandas=0.23
-  - rasterio=1.0.11
+  - rasterio=1.0.13
   - xarray=0.11
-  - pip:
-    - wurlitzer==1.0.2
 
